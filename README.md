@@ -1,26 +1,32 @@
-- TITLE
-  subtitle
-  description
+TITLE
 
-- HOW TO
-  short descripton on how to navigate through the repository
+- subtitle
+- description
 
-- INDEX
-  ELEMENT #
-  name / title
-  description
-  route
+HOW TO
 
-  ELEMENT #
-  name / title
-  description
-  route
+- short descripton on how to navigate through the repository
 
-- REFERENCES
-  info. sources
-  external help documentation
+INDEX
 
-- AUTHOR
-  name
-  web
-  social networks
+- ELEMENT #
+- name / title
+- description
+- route
+
+ELEMENT #
+
+- name / title
+- description
+- route
+
+REFERENCES
+
+- info. sources
+- external help documentation
+
+AUTHOR
+
+- name
+- web
+- social networks
