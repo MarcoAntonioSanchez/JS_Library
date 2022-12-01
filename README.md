@@ -1,7 +1,5 @@
 ### JS CODE LIBRARY
 
----
-
 #### Made with love from scratch (Nov 2022) :blue_heart:
 
 ---
