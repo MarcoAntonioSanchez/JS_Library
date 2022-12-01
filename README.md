@@ -1,6 +1,6 @@
 # JS CODE LIBRARY
 
-##- Made with love from scratch (Nov 2022)
+## Made with love from scratch (Nov 2022)
 - description
 
 ### HOW TO
@@ -9,12 +9,12 @@
 
 ### INDEX
 
-** ELEMENT **
+**ELEMENT**
 - name / title
 - description
 - route
 
-** ELEMENT **
+**ELEMENT**
 - name / title
 - description
 - route
@@ -26,6 +26,6 @@
 
 ## AUTHOR
 
-- Marco A. Sánchez
+- **__Marco A. Sánchez__**
 - [ravenmilosh.com](https://www.ravenmilosh.com/)
 - [LinkedIn](https://linkedin.com/in/marco-a-sanchez/) ,[Facebook](https://facebook.com/RavenDMilosh/), [Twitter](https://twitter.com/@ravenmilosh)
