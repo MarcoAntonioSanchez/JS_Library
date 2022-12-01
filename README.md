@@ -19,8 +19,7 @@ line(s) describing the technical base structure and functionallity.
 ## INDEX
 
 1. **Scroll to HTML element on click event**
-   - This code snippet was writted for a web page in a WordPress project for a schedule system called **WEBSY** full of checkboxes and the requirement was to scroll down to a specific element at the bottom of the page when a checkbox is clicked.
-   - [Click here to see the code](https://github.com/MarcoAntonioSanchez/JS_Library/tree/main/functions/scroll_to_element_on_click_event)
+   - This code snippet was writted for a web page in a WordPress project for a schedule system called **WEBSY** full of checkboxes and the requirement was to scroll down to a specific element at the bottom of the page when a checkbox is clicked. [Click here to see the code](https://github.com/MarcoAntonioSanchez/JS_Library/tree/main/functions/scroll_to_element_on_click_event)
 
 ## REFERENCES
 
