@@ -21,13 +21,13 @@ line(s) describing the technical base structure and functionallity.
 1. **Scroll to HTML element on click event**
    - This code snippet was writted for a web page in a WordPress project for a schedule system called **WEBSY** full of checkboxes and the requirement was to scroll down to a specific element at the bottom of the page when a checkbox is clicked. [Click here to see the code](https://github.com/MarcoAntonioSanchez/JS_Library/tree/main/functions/scroll_to_element_on_click_event)
 
-## REFERENCES
-
-- [Free Code Camp](https://www.freecodecamp.org/), [uDemy](https://www.udemy.com/), [W3schools](https://www.w3schools.com/), [MDN Web Docs](https://developer.mozilla.org/)
-- [EcmaScript Docs](https://262.ecma-international.org/5.1/)
-
 ## AUTHOR
 
 - **Marco A. Sánchez** a.k.a. _Raven D. Milosh_
 - [ravenmilosh.com](https://www.ravenmilosh.com/)
 - [LinkedIn](https://linkedin.com/in/marco-a-sanchez/) ,[Facebook](https://facebook.com/RavenDMilosh/), [Twitter](https://twitter.com/@ravenmilosh)
+
+## REFERENCES
+
+- [Free Code Camp](https://www.freecodecamp.org/), [uDemy](https://www.udemy.com/), [W3schools](https://www.w3schools.com/), [MDN Web Docs](https://developer.mozilla.org/)
+- [EcmaScript Docs](https://262.ecma-international.org/5.1/)
