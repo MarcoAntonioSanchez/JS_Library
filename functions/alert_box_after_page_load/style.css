@@ -1,0 +1,74 @@
+/* 0.Variables */
+:root {
+  --primary-color: brown;
+  --secondary-color: pink;
+  --alternative-color: white;
+  --primary-bg-color: #001524;
+  --secondary-bg-color: #202020;
+}
+
+/* 1.Nornalize */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background: var(--primary-bg-color);
+}
+
+html,
+body {
+  box-sizing: content-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+  color: #c1c1c1;
+}
+
+p {
+  color: #bfc0c0;
+  line-height: 23px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+li {
+  text-decoration: none;
+}
+
+main {
+  width: 75vw;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+/* #.Main */
+.paragraphContainer {
+  text-align: justify;
+}
+
+/* #.Footer */
+footer {
+  background: var(--secondary-bg-color);
+  min-height: 150px;
+}
+
+footer > article {
+  width: 75vw;
+  padding: 75px 0 0 0;
+  margin: 0 auto;
+  min-height: 125px;
+}
+
+footer > article > h2 {
+  text-align: center;
+}
