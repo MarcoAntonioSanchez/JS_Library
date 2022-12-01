@@ -9,7 +9,7 @@ The goal is that all my vanilla JavaScript code, previously tested,
 resides in blocks of code well docummented, getting the recycling process
 a structured and fast way to progress during programming journeys.
 
-#### :large_blue_circle: HOW TO:
+#### :arrow_right: HOW TO:
 
 ---
 
@@ -20,7 +20,7 @@ desired piece of code you need.
 About the docummentation, every **.js** file haves an appropiate comment
 line(s) describing the technical base structure and functionallity.
 
-#### :large_blue_circle: INDEX:
+#### :arrow_right: INDEX:
 
 ---
 
@@ -28,7 +28,7 @@ line(s) describing the technical base structure and functionallity.
 
 - This code snippet was writted for a web page in a WordPress project for a schedule system called **WEBSY** full of checkboxes and the requirement was to scroll down to a specific element at the bottom of the page when a checkbox is clicked. :link:[Click here to see the code](https://github.com/MarcoAntonioSanchez/JS_Library/tree/main/functions/scroll_to_element_on_click_event)
 
-#### :large_blue_circle: AUTHOR:
+#### :arrow_right: AUTHOR:
 
 ---
 
@@ -36,7 +36,7 @@ line(s) describing the technical base structure and functionallity.
 - [ravenmilosh.com](https://www.ravenmilosh.com/)
 - [LinkedIn](https://linkedin.com/in/marco-a-sanchez/) ,[Facebook](https://facebook.com/RavenDMilosh/), [Twitter](https://twitter.com/@ravenmilosh)
 
-#### :large_blue_circle: REFERENCES:
+#### :arrow_right: REFERENCES:
 
 ---
 
