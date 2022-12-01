@@ -1,31 +1,31 @@
-TITLE
+# JS CODE LIBRARY
 
-- subtitle
+##- Made with love from scratch (Nov 2022)
 - description
 
-HOW TO
+### HOW TO
 
 - short descripton on how to navigate through the repository
 
-INDEX
+### INDEX
 
-- ELEMENT #
+** ELEMENT **
 - name / title
 - description
 - route
 
-- ELEMENT #
+** ELEMENT **
 - name / title
 - description
 - route
 
-REFERENCES
+###REFERENCES
 
 - info. sources
 - external help documentation
 
-AUTHOR
+## AUTHOR
 
-- name
-- web
-- social networks
+- Marco A. Sánchez
+- [ravenmilosh.com](https://www.ravenmilosh.com/)
+- [LinkedIn](https://linkedin.com/in/marco-a-sanchez/) ,[Facebook](https://facebook.com/RavenDMilosh/), [Twitter](https://twitter.com/@ravenmilosh)
