@@ -15,12 +15,15 @@ a structured and fast way to progress during programming journeys.
 
 ---
 
-You can navigate trough the following index, in every sub-level of this
-root directory you'll find **README.md** files to help you find the
+First, you can reference to the following index list of titles of functions
+and code snippets to help you recycle vanilla JS on your implementations.
+In every sub-level of this root directory you'll find **README.md** files
+with a base description of the code structure to help you find the
 desired piece of code you need.
 
-About the docummentation, every **.js** file haves an appropiate comment
-line(s) describing the technical base structure and functionallity.
+Secondary, the docummentation on every **.js** file consist in the appropriate
+comment line(s) describing the functionallity of the code snippet in form
+of a resume pm a technical level.
 
 #### :arrow_right: INDEX:
 
