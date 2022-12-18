@@ -6,3 +6,35 @@
 body {
     background: #cecece;
 }
+
+body {
+    background: #edf2f4;
+  }
+  
+  .navbar-nav {
+    width: 100%;
+  }
+  
+  .navbar .container-fluid{
+    padding: 0 250px;
+  }
+  
+  .nav-link {
+    color: #8d99ae !important;
+    transition: all .3s ease-in-out;
+    margin: 0 10px;
+    border-left: 1px solid transparent;
+  }
+  
+  .nav-link:hover {
+    color: #d90429 !important;
+    border-left: 1px solid #ef233c;
+  }
+  
+  .navbar-brand {
+    color: #ffffff !important;
+  }
+  
+  .navbar {
+    border-bottom: 2px solid #ef233c;
+  }
