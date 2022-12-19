@@ -1,209 +1,225 @@
 /* 00. Normalize */
 body {
-    background: #edf2f4;
-    margin: 0px;
-    padding: 0px;
+  background: #edf2f4;
+  margin: 0px;
+  padding: 0px;
 }
 
 a {
-    text-decoration: none !important;
-    color: #ffffff;
-    transition: all .3s ease-in-out;
+  text-decoration: none !important;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
 }
 
 a:hover {
-    text-decoration: none !important;
-    color: #ef233c !important;
+  text-decoration: none !important;
+  color: #ef233c !important;
 }
 
-ul, li {
-    margin: 0px !important;
-    padding: 0px !important;
+ul,
+li {
+  margin: 0px !important;
+  padding: 0px !important;
 }
 
 /* ##. Preloader Animation */
-.preloaderAnimation {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    position: relative;
-    border: 4px solid #Fff;
-    top: 50%;
-    animation: loader 2s infinite ease;
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #212529;
+  justify-self: center;
+  align-items: center;
+}
+
+.loader {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border: 4px solid #fff;
+  top: 50%;
+  animation: loader 2s infinite ease;
+}
+
+.loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  animation: loader-inner 2s infinite ease-in;
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
   }
 
-  .preloaderInner {
-    vertical-align: top;
-    display: inline-block;
-    width: 100%;
-    background-color: #fff;
-    animation: loader-inner 2s infinite ease-in;
+  25% {
+    transform: rotate(180deg);
   }
-  
-  @keyframes preloaderAnimation {
-    0% {
-      transform: rotate(0deg);
-    }
-    
-    25% {
-      transform: rotate(180deg);
-    }
-    
-    50% {
-      transform: rotate(180deg);
-    }
-    
-    75% {
-      transform: rotate(360deg);
-    }
-    
-    100% {
-      transform: rotate(360deg);
-    }
+
+  50% {
+    transform: rotate(180deg);
   }
-  
-  @keyframes preloaderInner {
-    0% {
-      height: 0%;
-    }
-    
-    25% {
-      height: 0%;
-    }
-    
-    50% {
-      height: 100%;
-    }
-    
-    75% {
-      height: 100%;
-    }
-    
-    100% {
-      height: 0%;
-    }
+
+  75% {
+    transform: rotate(360deg);
   }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loader-inner {
+  0% {
+    height: 0%;
+  }
+
+  25% {
+    height: 0%;
+  }
+
+  50% {
+    height: 100%;
+  }
+
+  75% {
+    height: 100%;
+  }
+
+  100% {
+    height: 0%;
+  }
+}
 
 /* 01. Navbar */
 .navbar-nav {
-    width: 100%;
+  width: 100%;
 }
-  
-.navbar .container-fluid{
-    padding: 0 250px;
+
+.navbar .container-fluid {
+  padding: 0 250px;
 }
-  
+
 .nav-link {
-    color: #8d99ae !important;
-    transition: all .3s ease-in-out;
-    margin: 0 5px;
+  color: #8d99ae !important;
+  transition: all 0.3s ease-in-out;
+  margin: 0 5px;
 }
-  
+
 .nav-link:hover {
-    color: #d90429 !important;
+  color: #d90429 !important;
 }
-  
+
 .navbar-brand {
-    color: #ffffff !important;
+  color: #ffffff !important;
 }
-  
+
 .navbar {
-    border-bottom: 2px solid #ef233c;
+  border-bottom: 2px solid #ef233c;
 }
 
 /* ##. Main */
 main {
-    height: 100vh;
+  height: 100%;
 }
 
 .mainContainer {
-    width: 100%;
-    height: 100%;
-    background: url("https://picsum.photos/200/300");
-    background-repeat: no-repeat;
-    background-size: cover;
+  width: 100%;
+  height: 100%;
+  background: url("https://picsum.photos/200/300");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .randomImg {
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    border: 10px solid #212529;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  border: 10px solid #212529;
 }
 
 /* ##. Footer */
 .footerMainContainer {
-    height: 25vh;
-    background: #212529;
-    padding: 0 250px;
-    padding-top: 30px;
+  height: 25%;
+  background: #212529;
+  padding: 0 250px;
+  padding-top: 30px;
 }
 
 .footerBox {
-    width: 30%;
+  width: 30%;
 }
 
 .footerBoxTitle {
-    color: #8d99ae;
-    border-left: 2px solid #ef233c;
-    padding-left: 15px;
-    margin-bottom: 25px;
-    font-size: 17px;
+  color: #8d99ae;
+  border-left: 2px solid #ef233c;
+  padding-left: 15px;
+  margin-bottom: 25px;
+  font-size: 17px;
 }
 
 .footerBoxDescription {
-    color: #edf2f4;
-    font-size: 15px;
-    text-align: justify;
+  color: #edf2f4;
+  font-size: 15px;
+  text-align: justify;
 }
 
 .footerIcon {
-    align-self: baseline;
-    filter: invert(95%) sepia(4%) saturate(648%) hue-rotate(187deg) brightness(104%) contrast(91%);
-    padding-top: 5px;
-    margin-right: 15px;
-    transition: all .3s ease-in-out;
-    width: 25px;
-    height: 30px;
+  align-self: baseline;
+  filter: invert(95%) sepia(4%) saturate(648%) hue-rotate(187deg)
+    brightness(104%) contrast(91%);
+  padding-top: 5px;
+  margin-right: 15px;
+  transition: all 0.3s ease-in-out;
+  width: 25px;
+  height: 30px;
 }
 
-.bi-facebook, .bi-twitter, .bi-youtube, .bi-github {
-    font-size: 20px;
-    margin-right: 20px;
-    transition: all .3s ease-in-out;
-    color: #edf2f4;
+.bi-facebook,
+.bi-twitter,
+.bi-youtube,
+.bi-github {
+  font-size: 20px;
+  margin-right: 20px;
+  transition: all 0.3s ease-in-out;
+  color: #edf2f4;
 }
 
 .footerBoxLink {
-    color: #edf2f4;
-    transition: all .1s ease-in-out;
+  color: #edf2f4;
+  transition: all 0.1s ease-in-out;
 }
 
 .footerBoxItem {
-    transition: all .3s ease-in-out;
-    list-style: none;
+  transition: all 0.3s ease-in-out;
+  list-style: none;
 }
 
 .footerBoxItem:hover {
-    transform: scale(1.1);
-    color: #ef233c;
-    font-weight: bold;
+  transform: scale(1.1);
+  color: #ef233c;
+  font-weight: bold;
 }
 
 .footerEnd {
-    width: 100%;
-    height: 2.5vh;
-    background: #ef233c;
+  width: 100%;
+  height: 2.5%;
+  background: #ef233c;
 }
 
 .footerEndText {
-    font-size: 12px;
-    color: #ffffff;
-    text-align: center;
-    font-weight: lighter;
-    padding-top: 5px;
+  font-size: 12px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: lighter;
+  padding-top: 5px;
 }
 
 .footerBoxAboutText {
-    color: #edf2f4;
+  color: #edf2f4;
 }
